@@ -1,0 +1,7 @@
+@EndUserText.label: 'View 21: Access Control'
+@MappingRole: true
+define role Z00_VIEW_21 {
+//    grant select on Z00_view_21 where carrid > 'MM';  
+grant select on Z00_View_21 where (carrid) =
+    aspect pfcg_auth(S_CARRID, CARRID, ACTVT = '03');                      
+}

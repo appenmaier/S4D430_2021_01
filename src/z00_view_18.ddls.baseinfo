@@ -1,0 +1,16 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"SCARR",
+"TCURT"
+],
+"ASSOCIATED":
+[
+"TCURT"
+],
+"BASE":
+[]
+}
+}
